@@ -1,0 +1,24 @@
+{
+  "name": "miniature-spork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "uikit": "^3.2.2",
+    "yarn": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryankooy/miniature-spork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryankooy/miniature-spork/issues"
+  },
+  "homepage": "https://github.com/ryankooy/miniature-spork#readme"
+}
