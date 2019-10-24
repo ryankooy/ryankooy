@@ -13,3 +13,11 @@ p {
 .enter:hover {
   box-shadow: 0px 0px 10px lightgrey;
 }
+
+.acc {
+  text-align: center;
+}
+
+.bio {
+  text-align: right;
+}
