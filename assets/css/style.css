@@ -1,0 +1,15 @@
+.fa {
+  color: grey;
+}
+
+.fa:hover {
+  color: darkslategrey;
+}
+
+p {
+  color: darkslategrey;
+}
+
+.enter:hover {
+  box-shadow: 0px 0px 10px lightgrey;
+}
