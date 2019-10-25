@@ -21,3 +21,7 @@ p {
 .bio {
   text-align: right;
 }
+
+.tit, .bio {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
