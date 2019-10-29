@@ -8,9 +8,4 @@ $(document).ready(function () {
     $('.acc').removeClass('uk-hidden');
     $('.acc').attr('uk-scrollspy', 'cls: uk-animation-fade; target: ul; delay: 1000; repeat: true');
   });
-
-  // $('.tit').on('click', function () {
-  //   $('#spin').removeClass('uk-hidden');
-  //   setTimeout(function () { $('#spin').addClass('uk-animation-fade'); }, 1000);
-  // });
 });
