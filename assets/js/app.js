@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $('.acc').addClass('uk-hidden');
-  // $('#spin').addClass('uk-hidden');
 
   $('.enter').on('click', function () {
     $('.landing').addClass('uk-animation-fade uk-animation-reverse');
