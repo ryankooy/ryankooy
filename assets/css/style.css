@@ -18,11 +18,19 @@ p {
 }
 
 .enter:hover {
-  box-shadow: 0px 0px 10px lightgrey;
+  box-shadow: 0px 0px 10px lightgray;
 }
 
 .acc {
   text-align: center;
+}
+
+.tile {
+  opacity: 0.5;
+}
+
+.tile:hover {
+  opacity: 1.0;
 }
 
 .bio {

@@ -30,273 +30,236 @@
     </div>
 
     <!-- links -->
-    <div class="uk-flex uk-flex-middle uk-text-center footer">
+    <div class="uk-flex uk-flex-middle uk-text-center footer" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
       <div class="uk-position-bottom uk-card uk-card-default uk-card-body">
         <a href="https://www.linkedin.com/in/ryan-kooy-b3098518/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="false"></i></a>
         <a href="https://github.com/ryankooy" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="false"></i></a>
       </div>
     </div>
 
-    <!-- accordion layout -->
-    <div class="uk-panel uk-position-center acc">
-      <ul uk-accordion="collapsible: true">
-        <li>
-          <a class="uk-accordion-title tit" href="#">About Me</a>
-          <div class="uk-accordion-content">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-              <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                <img src="assets/img/ccprofile.jpg" alt="Portrait of Ryan Kooy" uk-cover>
-                <canvas width="400" height="100"></canvas>
+    <div class="uk-section acc">
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-animation-slide-right uk-margin" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+          <img src="assets/img/ccprofile.jpg" alt="Portrait of Ryan Kooy" uk-cover>
+          <canvas width="400" height="100"></canvas>
+        </div>
+
+        <div class="bio">
+          <div class="uk-card uk-card-default uk-card-body">
+            <p>
+              Hi! The name's Ryan Kooy and I'm a full-stack web/software developer. Born in Indiana and raised in NC, I am a product of Northern families and Southern-fried friends.
+              When I'm not "tickling" my laptop, I designate time for my other loves&mdash;the visual/audial arts, the natural sciences, and my four (4) felines.
+              <br>
+              If I may assist you with a web/software project, send me an email at <a href="mailto:rwkooy@gmail.com"><strong>rwkooy@gmail.com</strong></a>; I'd love to hear from you. Otherwise, download my <a href="assets/doc/resDev.docx" download="RyanKooyResume" target="_blank"><strong>resume</strong></a> and/or take a look at my portfolio below.
+            </p>
+            <hr class="uk-divider-icon" />
+            <p style="font-size: 14px">
+              <strong>Technical Skills</strong>: HTML5, CSS3, JavaScript ES5/ES6 (Node.js, jQuery), Python, Git, Bash <strong>|</strong> 
+              <i>UI:</i> React, Bootstrap, UIKit, Semantic-UI <strong>|</strong> 
+              <i>Web:</i> Express.js, Heroku <strong>|</strong>
+              <i>Databases:</i> MySQL, MongoDB <strong>|</strong>
+              <i>CI:</i> Travis CI <strong>|</strong> 
+              <i>Graphics Editors:</i> Adobe Photoshop + Illustrator <strong>|</strong> 
+              <i>Document Editors:</i> Microsoft Office (Word, Excel, PowerPoint), Google (Docs, Sheets, Slides)
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/ryan-kooy-b3098518/" target="_blank"><i class="fa fa-linkedin-square fa-2x" title="LinkedIn" aria-hidden="false"></i></a>
+              <a href="https://github.com/ryankooy" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
+              <a href="mailto:rwkooy@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-2x" title="Email"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center port" uk-grid>
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://still-ocean-39852.herokuapp.com/" target="_blank">
+              <img src="assets/img/TriOnTap.png" class="port-link" title="Triangle OnTap" alt="Triangle OnTap App">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/project3" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
               </div>
-              <div>
-                <div class="uk-card-body bio">
-                  <p>
-                    Well, hello! I'm Ryan and I'm a software developer. Born in Indiana and raised in NC, I am a product of Northern families and Southern-fried friends.
-                    When I'm not clicking away at my laptop, I designate time for my other loves&mdash;the visual/audial arts, the natural sciences, and my four crazy felines.
-                    <br>
-                    If I can help you with a web or software project, send me an <a href="mailto:rwkooy@gmail.com"><strong>email</strong></a>; I'd love to hear from you. Otherwise, you're welcome to download my <a href="assets/doc/resDev.docx" download="RyanKooyResume" target="_blank"><strong>resume</strong></a> and/or take a look at my portfolio below.
-                  </p>
-                  <p style="font-size: 12px">
-                    <strong>Proficiencies</strong>: HTML5, CSS3, JavaScript (ES5, ES6) || JS Libraries: jQuery, Sequelize, Mongoose, Moment.js || JS Frameworks: React, Handlebars || UI Frameworks: Bootstrap, UIKit, Semantic-ui, animate.css || Web Application Frameworks: Express || CLI: Node.js || Programming Languages: Python, C# || Databases: MySQL, MongoDB || GUI: MySQL Workbench, Robo 3T || Dev Tools: Git, GitLab || PaaS: GitHub Pages, Heroku, Netlify || Package Managers: npm, yarn || Node.js Packages: axios, cheerio, Inquirer.js, dotenv || Continuous Integration: Travis CI || CMS: Microsoft SharePoint, Indexhibit, WordPress || Graphics Editors: Adobe Photoshop, Adobe Illustrator, GIMP, Inkscape, PicsArt  || Editors: Microsoft Office (Word, Excel, PowerPoint)
-                  </p>
-                  <p>
-                    <a href="https://www.linkedin.com/in/ryan-kooy-b3098518/" target="_blank"><i class="fa fa-linkedin-square fa-2x" title="LinkedIn" aria-hidden="false"></i></a>
-                    <a href="https://github.com/ryankooy" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                    <a href="mailto:rwkooy@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-2x" title="Email"></i></a>
-                  </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://ancient-thicket-94532.herokuapp.com/" target="_blank">
+              <img src="assets/img/google-books.png" class="port-link" title="Google Books Search" alt="Google Books Search">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                    <a href="https://github.com/ryankooy/googlebooks-search" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                  </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://eloquent-wescoff-eb3a69.netlify.com/" target="_blank">
+              <img src="assets/img/clicky-peaks.png" class="port-link" title="Clicky Peaks" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                    <a href="https://github.com/ryankooy/clicky-game" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                  </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://shielded-spire-88390.herokuapp.com/" target="_blank">
+              <img src="assets/img/science-scrapes.png" class="port-link" title="Science Scrapes" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/news-scrapes" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div> -->
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://lit-ridge-44942.herokuapp.com" target="_blank">
+              <img src="assets/img/eat-burg.png" class="port-link" title="Eat Da Burgie!" alt="Eat Da Burgie!">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/eat-da-burger" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://fierce-tor-27327.herokuapp.com" target="_blank">
+              <img src="assets/img/ff.jpg" class="port-link" title="FriendFinder" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/friend-finder" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://ryankooy.github.io/giftastic" target="_blank">
+              <img src="assets/img/gifty.png" class="port-link" title="GifTastic" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/giftastic" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://ryankooy.github.io/Word-Guess-Game" target="_blank">
+              <img src="assets/img/hangman-pups.jpg" class="port-link" title="Hangman Pups" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/Word-Guess-Game" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://ryankooy.github.io/trivia-game" target="_blank">
+              <img src="assets/img/trivia-game.jpg" class="port-link" title="A Bunch O' Animals! Trivia Game" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/trivia-game" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://ryankooy.github.io/train-scheduler" target="_blank">
+              <img src="assets/img/t-s.png" class="port-link" title="Train's A-Comin'" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/train-scheduler" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://github.com/ryankooy/bamazon" target="_blank">
+              <img src="https://media.giphy.com/media/h86dVWLuRWDb4oNO4l/giphy.gif" class="port-link" title="Bamazon" alt="">
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small"><h2 class="uk-margin-remove uk-text-default">Bamazon</h2></div>
+                <div class="uk-transition-slide-bottom-small">
+                  <h2 class="uk-margin-remove">
+                      <a href="https://github.com/ryankooy/bamazon" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                  </h2>
                 </div>
               </div>
-            </div>
-          </div>    
-        </li>
-        <li>
-          <a class="uk-accordion-title tit" href="#">Portfolio</a>
-          <div class="uk-accordion-content">
-            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
-              <ul class="uk-slider-items uk-grid">
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://still-ocean-39852.herokuapp.com/" target="_blank">
-                      <img src="assets/img/TriOnTap.png" class="port-link" title="Triangle OnTap" alt="Triangle OnTap App">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/project3" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://ancient-thicket-94532.herokuapp.com/" target="_blank">
-                      <img src="assets/img/google-books.png" class="port-link" title="Google Books Search" alt="Google Books Search">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/googlebooks-search" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://eloquent-wescoff-eb3a69.netlify.com/" target="_blank">
-                      <img src="assets/img/clicky-peaks.png" class="port-link" title="Clicky Peaks" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/clicky-game" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <!-- <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://shielded-spire-88390.herokuapp.com/" target="_blank">
-                      <img src="assets/img/science-scrapes.png" class="port-link" title="Science Scrapes" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/news-scrapes" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li> -->
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://lit-ridge-44942.herokuapp.com" target="_blank">
-                      <img src="assets/img/eat-burg.png" class="port-link" title="Eat Da Burgie!" alt="Eat Da Burgie!">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/eat-da-burger" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://fierce-tor-27327.herokuapp.com" target="_blank">
-                      <img src="assets/img/ff.jpg" class="port-link" title="FriendFinder" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/friend-finder" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://ryankooy.github.io/giftastic" target="_blank">
-                      <img src="assets/img/gifty.png" class="port-link" title="GifTastic" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/giftastic" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://ryankooy.github.io/Word-Guess-Game" target="_blank">
-                      <img src="assets/img/hangman-pups.jpg" class="port-link" title="Hangman Pups" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/Word-Guess-Game" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://ryankooy.github.io/trivia-game" target="_blank">
-                      <img src="assets/img/trivia-game.jpg" class="port-link" title="A Bunch O' Animals! Trivia Game" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/trivia-game" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://ryankooy.github.io/train-scheduler" target="_blank">
-                      <img src="assets/img/t-s.png" class="port-link" title="Train's A-Comin'" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/train-scheduler" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://github.com/ryankooy/bamazon" target="_blank">
-                      <img src="https://media.giphy.com/media/h86dVWLuRWDb4oNO4l/giphy.gif" class="port-link" title="Bamazon" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-top-small"><h2 class="uk-margin-remove uk-text-default">Bamazon</h2></div>
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                              <a href="https://github.com/ryankooy/bamazon" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://github.com/ryankooy/liri-node-app" target="_blank">
-                      <img src="https://media.giphy.com/media/gHQCdj8i3nSHC8xWfx/giphy.gif" class="port-link" title="Liri" alt="">
-                      <div class="uk-position-center">
-                        <div class="uk-transition-slide-top-small"><h2 class="uk-margin-remove uk-text-default">Liri</h2></div>
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/liri-node-app" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2 uk-text-center">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://project2-team4.herokuapp.com/" target="_blank">
-                      <img src="assets/img/moodiful.png" class="port-link" title="Moodiful" alt="">
-                      <div class="uk-position-center">
-                        <!-- <div class="uk-transition-slide-top-small"><h2 class="uk-margin-remove uk-text-warning">Moodiful</h2></div> -->
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/Moodiful" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-                <!-- ======= SLIDE ======= -->
-                <li class="uk-width-1-2">
-                  <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <a href="https://ryankooy.github.io/project-1/" target="_blank">
-                      <img src="assets/img/ttt.jpg" class="port-link" title="Tic Tac Trivia" alt="">
-                      <div class="uk-position-center">
-                        <!-- <div class="uk-transition-slide-top-small"><h2 class="uk-margin-remove uk-text-warning">Tic Tac Trivia</h2></div> -->
-                        <div class="uk-transition-slide-bottom-small">
-                          <h2 class="uk-margin-remove">
-                            <a href="https://github.com/ryankooy/project-1" target="_blank"><i class="fa fa-github-alt fa-2x" title="GitHub" aria-hidden="false"></i></a>
-                          </h2>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-              <div class="uk-slidenav-container">
-                <a class="uk-position-center-left uk-position-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
-              </div>
-            </div>       
+            </a>
           </div>
-        </li>
-      </ul>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://github.com/ryankooy/liri-node-app" target="_blank">
+              <img src="https://media.giphy.com/media/gHQCdj8i3nSHC8xWfx/giphy.gif" class="port-link" title="Liri" alt="">
+              <div class="uk-position-center">
+                <div class="uk-transition-slide-top-small"><h2 class="uk-margin-remove uk-text-default">Liri</h2></div>
+                <div class="uk-transition-slide-bottom-small">
+                  <h2 class="uk-margin-remove">
+                    <a href="https://github.com/ryankooy/liri-node-app" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                  </h2>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://project2-team4.herokuapp.com/" target="_blank">
+              <img src="assets/img/moodiful.png" class="port-link" title="Moodiful" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/Moodiful" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="uk-tile uk-tile-default uk-padding-small tile">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://ryankooy.github.io/project-1/" target="_blank">
+              <img src="assets/img/ttt.jpg" class="port-link" title="Tic Tac Trivia" alt="">
+              <div class="uk-position-large uk-position-bottom-right uk-transition-slide-bottom-small">
+                <h2 class="uk-margin-remove">
+                  <a href="https://github.com/ryankooy/project-1" target="_blank"><i class="fa fa-github-square fa-2x" title="GitHub" aria-hidden="false"></i></a>
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

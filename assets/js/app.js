@@ -1,10 +1,10 @@
-$(document).ready(function () {
+$(document).ready(() => {
   $('.acc').addClass('uk-hidden');
 
-  $('.enter').on('click', function () {
-    $('.landing').addClass('uk-animation-fade uk-animation-reverse');
-    $('.footer').addClass('uk-animation-fade uk-animation-reverse');
+  $('.enter').on('click', () => {
+    // $('.landing, .footer').addClass('uk-animation-fade uk-animation-reverse');
+    $('.landing, .footer').hide();
     $('.acc').removeClass('uk-hidden');
-    $('.acc').attr('uk-scrollspy', 'cls: uk-animation-fade; target: ul; delay: 1000; repeat: true');
+    $('.acc').attr('uk-scrollspy', 'cls: uk-animation-fade; delay: 100');
   });
 });
