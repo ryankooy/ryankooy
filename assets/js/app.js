@@ -6,4 +6,4 @@ $(document).ready(() => {
     $('.acc').removeClass('uk-hidden');
     $('.acc').attr('uk-scrollspy', 'cls: uk-animation-fade; delay: 100');
   });
-});
+})
