@@ -5,5 +5,10 @@ $(document).ready(() => {
     $('.landing, .footer').hide();
     $('.acc').removeClass('uk-hidden');
     $('.acc').attr('uk-scrollspy', 'cls: uk-animation-fade; delay: 100');
-  });
+    setTimeout(() => byeBG(), 2000);
+  })
+
+  const byeBG = () => {
+    $('html, body').attr('style', 'background-image: none;');
+  }
 })
