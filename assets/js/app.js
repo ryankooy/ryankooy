@@ -10,9 +10,5 @@ $(document).ready(() => {
 
   const byeBG = () => {
     $('html, body').attr('style', 'background-image: none;');
-
-    location.replace();
-
-    $('.acc').addClass('uk-hidden');
   }
 })
