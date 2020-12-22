@@ -9,11 +9,7 @@ html, body {
   color: grey;
 }
 
-.fa:hover {
-  color: darkslategrey;
-}
-
-p {
+p, .fa:hover {
   color: darkslategrey;
 }
 
