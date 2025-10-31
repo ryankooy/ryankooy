@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   height: 100%;
-  background-image: url("https://images.unsplash.com/photo-1515511856280-7b23f68d2996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80");
+  background-image: url("https://images.unsplash.com/photo-1515511856280-7b23f68d2996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=contain&w=1506&q=80");
   background-attachment: fixed;
 }
 
@@ -21,16 +21,12 @@ p, .fa:hover {
   max-height: 125px;
 }
 
-.tile {
+img.port-link {
   opacity: 0.5;
 }
 
-.tile:hover {
+img.port-link:hover {
   opacity: 1.0;
-}
-
-.bio {
-  text-align: center;
 }
 
 .tit, .bio {

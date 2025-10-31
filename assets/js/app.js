@@ -5,7 +5,7 @@ $(document).ready(() => {
     $('.landing, .footer').hide();
     $('.acc').removeClass('uk-hidden');
 
-    setTimeout(() => byeBG(), 550);
+    //setTimeout(() => byeBG(), 550);
   })
 
   const byeBG = () => {

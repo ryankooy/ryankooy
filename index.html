@@ -12,7 +12,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
     <script src="https://use.fontawesome.com/29b44199bb.js"></script>
   </head>
 
@@ -39,13 +38,15 @@
 
     <!-- About Me -->
     <div class="acc">
-      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-animation-slide-right uk-margin" uk-grid>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-animation-slide-right uk-width-xlarge uk-margin-auto" uk-grid>
         <div class="bio">
-          <div class="uk-card uk-card-default uk-card-body">
+          <div class="uk-card uk-card-default uk-card-body uk-text-center">
+            <p class="uk-text-center" style="font-size: 22px">BIO</p>
             <p>
               Ryan Kooy here. I'm a Backend Software Developer and insatiable learner with my hands
               in medical lab software solutions, web development, system design, database management,
               scripting, and beyond.
+              <br>
               I also fancy the visual/audial arts, the natural sciences, and my family (some of which are feline).
               <br>
               <a href="mailto:rwkooy@gmail.com"><strong>Email</strong></a>
@@ -54,19 +55,29 @@
             <p class="uk-text-center" style="font-size: 22px">SKILLS</p>
             <p style="font-size: 14px">
               <p>
-                <i>Programming/Scripting Languages:</i> Python, Bash, Clojure, Rust, Go, Lua, C/C++, C#,
-                JavaScript, CoffeeScript, PHP, HTML, CSS/Sass
-              </p>
-              <p>
-                <i>Databases:</i> PostgreSQL, MySQL, MongoDB
+                <i>Programming/Scripting Languages:</i>
                 <br>
-                <i>Tools/Environments:</i> Git, WSL (Ubuntu), Docker, Tmux
+                Python, Bash, Clojure, Rust, Go, Lua, C/C++, C#, JavaScript, CoffeeScript, PHP, HTML, CSS/Sass
                 <br>
-                <i>Web Frameworks:</i> React, Svelte, Backbone.js, Express.js, PyQt
+                <i>Databases:</i>
                 <br>
-                <i>Cloud Computing:</i> AWS
+                PostgreSQL, MySQL, MongoDB
                 <br>
-                <i>Editors:</i> Vim, VS Code, Visual Studio
+                <i>Tools/Environments:</i>
+                <br>
+                Git, WSL (Ubuntu), Docker, Tmux
+                <br>
+                <i>Web Frameworks:</i>
+                <br>
+                React, Svelte, Backbone.js, Express.js, PyQt
+                <br>
+                <i>Cloud Computing:</i>
+                <br>
+                AWS
+                <br>
+                <i>Editors:</i>
+                <br>
+                Vim, VS Code, Visual Studio
               </p>
             </p>
             <p>
@@ -152,7 +163,8 @@
           </div>
         </div> -->
 
-        <div class="uk-tile uk-tile-default uk-padding-small tile">
+        <div class="uk-flex uk-flex-wrap">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <a href="https://ryankooy.github.io/giftastic" target="_blank">
               <img src="assets/img/gifty.png" class="port-link" title="GifTastic" alt="">
@@ -165,7 +177,7 @@
           </div>
         </div>
 
-        <div class="uk-tile uk-tile-default uk-padding-small tile">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <a href="https://ryankooy.github.io/Word-Guess-Game" target="_blank">
               <img src="assets/img/hangman-pups.jpg" class="port-link" title="Hangman Pups" alt="">
@@ -178,7 +190,7 @@
           </div>
         </div>
 
-        <div class="uk-tile uk-tile-default uk-padding-small tile">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <a href="https://ryankooy.github.io/trivia-game" target="_blank">
               <img src="assets/img/trivia-game.jpg" class="port-link" title="A Bunch O' Animals! Trivia Game" alt="">
@@ -191,7 +203,7 @@
           </div>
         </div>
 
-        <div class="uk-tile uk-tile-default uk-padding-small tile">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <a href="https://ryankooy.github.io/train-scheduler" target="_blank">
               <img src="assets/img/t-s.png" class="port-link" title="Train's A-Comin'" alt="">
@@ -204,7 +216,7 @@
           </div>
         </div>
 
-        <div class="uk-tile uk-tile-default uk-padding-small tile">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <a href="https://github.com/ryankooy/bamazon" target="_blank">
               <img src="https://media.giphy.com/media/h86dVWLuRWDb4oNO4l/giphy.gif" class="port-link" title="Bamazon" alt="">
@@ -220,7 +232,7 @@
           </div>
         </div>
 
-        <div class="uk-tile uk-tile-default uk-padding-small tile">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <a href="https://github.com/ryankooy/liri-node-app" target="_blank">
               <img src="https://media.giphy.com/media/gHQCdj8i3nSHC8xWfx/giphy.gif" class="port-link" title="Liri" alt="">
@@ -235,6 +247,8 @@
             </a>
           </div>
         </div>
+        </div>
     </div>
+    <script type="module" src="assets/js/app.js"></script>
   </body>
 </html>
